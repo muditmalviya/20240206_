@@ -1,0 +1,25 @@
+/* set the margin and padding to 0 for entire elements */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* set the height of body to 100% of viewscreen 
+   use flex to center it on screen
+*/
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* style the box */
+.box{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    background-color: black;
+
+}

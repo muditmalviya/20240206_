@@ -1,0 +1,61 @@
+/* set the margin and padding to zero for all initially */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* make the body height 100% of the screen */
+body{
+    height: 100vh;
+}
+
+/* make the header 10% of the screen and color it light blue */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #c7d0e5;
+}
+
+/* height of middle will be 80% of screen and will be having two childs*/
+.middle{
+    height: 80vh;
+    display: flex;
+}
+
+/* make the leftChild of middle 25% width of entire screen  */
+.leftChild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    background-color: #47545b;
+}
+
+/* make the middle one as 50% width of the screen */
+.centerChild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background-color: #b4d6eb;
+}
+
+/* make the rightChild of middle 25% fo the entire screen */
+.rightChild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    background-color: #093c5f;
+}
+
+/* make the footer of height 10% of the screen  */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #2926EB;
+}
