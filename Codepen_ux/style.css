@@ -119,7 +119,6 @@ strong {
 
 /* Secondside styling in middle */
 .middle .Secondside_middle {
-    border-top: 0.1px solid rgb(57, 55, 55);
     height: 100%;
     width: 500px;
     background-color: black;
@@ -140,26 +139,6 @@ strong {
     justify-content: space-between;
 }
 
-/* Text inside sub-top */
-.sub_top .text_inside {
-    box-sizing: border-box;
-    height: 38px;
-    border-top: 4px solid #34363e;
-    background-color: #1d1e22;
-    color: rgb(170, 158, 158);
-    font-weight: bolder;
-    padding: 9px 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* SVG in Secondside top */
-.Secondside_top_top svg {
-    margin-left: 6px;
-    height: 17px;
-    width: 17px;
-}
 
 /* Secondside top-top section */
 .Secondside_top_top {
