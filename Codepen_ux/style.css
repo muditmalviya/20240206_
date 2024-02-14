@@ -239,13 +239,3 @@ strong {
     align-items: center;
     justify-content: center;
 }
-
-/* SVG in Secondside footer buttons */
-.footer .Secondside_buttons button svg {
-    fill: white;
-    margin-left: 5px;
-    width: 10px;
-    height: 10px;
-}
-
-
